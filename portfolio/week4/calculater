@@ -1,6 +1,7 @@
 #!bin/bash
 
 # promt reader to type number for calculation
+
 read -p "Enter first Num:> " numBer1
 read -p "Enter second Num:> " numBer2
 
