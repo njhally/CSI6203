@@ -1,13 +1,15 @@
 #!/bin/bash
-read -p > "UserInput.txt " folderName
-#name is a valid directory
+#promt user to type foldername they want to copy
+read -p "type folder you would like to copy " folderName
+#find if the folder is already in directory
 if [ -d "$folderName" ]
 then
-#going to new location new location
-read -p "Destination folder:> " newFolderName
+#giving it new destination
+read -p "type the name of the destination folder " newFolderName
 cp -r "$folderName" "$newFolderName"
 else
-# print an error
-echo "I couldn't find that folder"
+#if folder not found  print an error
+echo "folder not found"
 
 fi
+
