@@ -1,9 +1,13 @@
 #!/bin/bash
-read -p "type the name of folder you would like to copy:"folderName
-#if the name is valid directory
-if [ -d "$folderName"];then
-read -p "type the name of destination folder:"newFolderName
+read -p > "UserInput.txt " folderName
+#name is a valid directory
+if [ -d "$folderName" ]
+then
+#going to new location new location
+read -p "Destination folder:> " newFolderName
 cp -r "$folderName" "$newFolderName"
-#otherwise print an error
-echo "i could not find that folder"
+else
+# print an error
+echo "I couldn't find that folder"
+
 fi
