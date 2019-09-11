@@ -1,0 +1,79 @@
+{
+	// Place your snippets for shellscript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "add a shebang":{
+	// 	"prefix": "#!",
+	// 	"body": [
+	// 		"#!/bin/bash"
+	// 		
+	// 	],
+	// 	"description": "add shebang to script"
+
+	// }
+	
+	"add a shebang":{
+			"prefix": "#!",
+		 	"body": [
+		 		"#!/bin/bash"
+		 		
+		 	],
+		 	"description": "add shebang to script"
+	
+		 },
+		 
+	"black":{
+		"prefixx":"cblack"
+	       "body":[
+			"\\033[30m    \\033[",
+			],
+			"description": "change color to black"
+		},
+
+	"red":{
+			"prefix": "cred",
+			"body":[
+				"\\033[30m    \\033[",
+			]
+			 
+			 "description":"change color to red"
+
+		},
+	"green":{
+			"prefixx":"cgreen"
+			  "body":[
+				"\\033[30m    \\033[",
+				],
+				"description": "change color to green"
+
+		},
+			
+	"purple":{
+			"prefixx":"cpurple"
+			  "body":[
+				"\\033[30m    \\033[",
+				],
+				"description": "change color to purple"
+			},
+	"cyan":{
+			"prefixx":"ccyan"
+				  "body"[
+					
+					"\\033[30m    \\033[",
+					],
+					"description": "change color to cyan"
+				},
+
+	"gray":{
+			"prefixx":"ggray"
+					"body"[
+					
+						"\\033[30m    \\033[",
+						],
+						"description": "change color to gray"
+						
+					},
+			
+		
