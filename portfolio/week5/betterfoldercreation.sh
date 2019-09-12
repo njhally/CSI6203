@@ -1,18 +1,18 @@
 #!/bin/bash
-#If there aren't two arguments to the script
+#if there are less than two arg in to the script
 
 read -p "enter start week " startweek
 read -p "enter last folder:> " lastweek
 
 
 if(($startweek==0 || $lastweek==0 || $startweek>=$lastweek)); then
-#Print an error and exit
-echo "Error, Please enter valid numbers" && exit 1
+#Printing an error and exit
+echo "Error- Please enter valid numbers" && exit 1
 fi
-#For every number between the first argument and the last
+# this fill print every number between last and first arg.
 for ((i =$startweek; i <= $lastweek; i++))
 do
-#Create a new folder for that number
+#creating folder in directory that are entered
 echo "Creating directory number $i"
 
 mkdir "week$i"

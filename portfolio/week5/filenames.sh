@@ -9,13 +9,13 @@ for file in $(cat $mytxtFile)
 do
     
     if [ -d "$file" ]; then # it will check if file in directory
-        echo "$file is a directory"
+        echo "$file thats a directory"
 
     elif [ -f "$file" ]; then #will show argument is file
-        echo "$file is a file"
+        echo "$file that file exits"
 
     else   
-        echo " $file Niether file nor a directory!"
+        echo " $file i don't know what is this!"
     fi 
 
 done

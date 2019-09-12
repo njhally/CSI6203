@@ -3,7 +3,9 @@ echo "1. create a folder
 2.list files in a folder
 3.copy a folder
 4.save a password
-5.read a password"
+5.read a password
+6.press enter to exit"
+
 
 
 read -p "type any number to proceed:> " number
@@ -20,6 +22,7 @@ case $number in
 ;;
 5)cd ~CSI6203/portfolio/week3/ ;cat secret.txt
 ;;
-
+6)system.exit (0)
+;;
 esac
 exit 0
