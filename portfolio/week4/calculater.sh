@@ -5,7 +5,7 @@
 read -p "Enter first Num:> " numBer1
 read -p "Enter second Num:> " numBer2
 
-#giving any operator
+#pressing sign to do calculation
 echo "Enter Operator:>"
 echo "+ for addition"
 echo "- for subtraction" 
