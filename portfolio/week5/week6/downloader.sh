@@ -1,8 +1,6 @@
 #!/bin/bash
 
-#Module 6
-# Author: Nav 
-# Edith Cowan University.
+
 
 download()
 {
