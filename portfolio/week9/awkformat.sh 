@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+
+#Programe to write same data but with filed separater
+echo "Your shopping List: "
+
+awk 'BEGIN {
+    FS=","
+}
+
+{
+    print $1
+}' shopping.csv
